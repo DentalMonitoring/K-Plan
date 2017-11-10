@@ -1,6 +1,8 @@
 
 apply from: '../../gradle/spek.gradle'
 
+apply from: '../../gradle/bintray.gradle'
+
 dependencies {
     api project(':models')
 

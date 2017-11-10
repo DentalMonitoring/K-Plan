@@ -1,2 +1,4 @@
 
 group 'com.dentalmonitoring.kplan'
+
+apply from: '../gradle/bintray.gradle'
