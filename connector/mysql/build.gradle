@@ -1,0 +1,11 @@
+
+apply from: '../../gradle/spek.gradle'
+
+dependencies {
+    api project(':models')
+
+    implementation project(':engine')
+
+    implementation "org.slf4j:slf4j-api:$slf4j_version"
+    implementation "com.github.salomonbrys.kotson:kotson:$kotson_version"
+}

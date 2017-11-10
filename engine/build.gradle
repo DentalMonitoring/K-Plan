@@ -1,0 +1,13 @@
+
+apply plugin: 'org.junit.platform.gradle.plugin'
+
+apply from: '../gradle/spek.gradle'
+
+group 'com.dentalmonitoring.kplan'
+
+dependencies {
+    api project(':models')
+
+    implementation "org.slf4j:slf4j-api:$slf4j_version"
+    implementation "com.github.salomonbrys.kotson:kotson:$kotson_version"
+}

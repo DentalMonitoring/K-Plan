@@ -1,0 +1,12 @@
+
+dependencies {
+    implementation project(':engine')
+    implementation project(':connector:mysql')
+
+    implementation "com.github.salomonbrys.kotson:kotson:$kotson_version"
+    implementation 'com.h2database:h2:1.4.192'
+
+    implementation 'com.nhaarman:mockito-kotlin:1.1.0'
+    implementation 'com.natpryce:hamkrest:1.3.0.0'
+    implementation "org.jetbrains.spek:spek-api:$spek_version"
+}

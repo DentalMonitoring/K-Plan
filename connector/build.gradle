@@ -1,0 +1,4 @@
+
+subprojects {
+    group 'com.dentalmonitoring.kplan.connector'
+}
